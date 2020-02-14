@@ -1,1 +1,26 @@
 https://codepen.io/benvenker/pen/ExjYjbR?editors=1100
+
+
+
+    1. What is the difference between an inline element and a block element?
+
+      Block elements start on a new line and take up full width of the parent div.
+      Inline elements doesn't start on a new line (like a a <span>) and only takes up the width of the div content by defualt.
+
+    2. What happens when an element is positioned absolutely? 
+      The div will be positioned relative to its first _positioned_ ancestor element.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+      box-sizing: border-box
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+      - <a>
+      - <svg>
+      - <i>
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+      The "fix" for the box model is to apply box-sizing: border-box; to the html. The box model
+      is how manipulate HTML elements. It allows you to set padding (internal spacing, fromt the
+      document content's edge to the edge of the padding size), set margin (the distance between 
+      elements), as well as a variety of borders. Additionally, you can assigne properties like
+      width and height to further control the appearance of HTML elements.
