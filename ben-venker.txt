@@ -170,10 +170,17 @@ https://codepen.io/benvenker/pen/ExjYjbR?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+      Block-level elements always start on a new line and take up the full width of their parent container
+      (or the DOM)
+
+      Inline elements don't start on a new line and only take up the width of the div content.
 
     2. What happens when an element is positioned absolutely? 
+      "The element is positioned relative to its first (not static) ancestor element."*
+        *W3SChools: https://www.w3schools.com/cssref/pr_class_position.asp
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+      box-sizing: border-box;
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
       Block
@@ -188,3 +195,6 @@ Stretch Questions
         <img>
 
     5. In your own words, explain the box model. What is the fix for the box model? 
+      The box model is what allows us to manipulate HTML elements. We can do things like set borders with "border",
+      add space between elements with "margin", control dimensions with "width" and "height", etc. It also allows
+      us to manipulate their position, etc. CSS is required to do all the manipulations described above.
